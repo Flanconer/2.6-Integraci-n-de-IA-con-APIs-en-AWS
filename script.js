@@ -102,8 +102,7 @@
       // 2) Construye body
       const body = {
         instruccion: $('instruccion').value.trim(),
-        a: $('a').value === '' ? null : Number($('a').value),
-        b: $('b').value === '' ? null : Number($('b').value),
+     
         ip_publica: ip,
         ts: new Date().toISOString()
       };
@@ -147,6 +146,7 @@
     }
   });
 })();
+
 
 
 
