@@ -16,7 +16,7 @@
   // ---- IP Pública (obligatoria para tu flujo) ----
   // Intento principal: ipify (CORS-friendly)
   async function fetchIPViaIpify() {
-    const r = await fetch('http://34.237.140.168/ops', { cache: 'no-store' });
+    const r = await fetch('http://44.200.226.50/ops', { cache: 'no-store' });
     if (!r.ok) throw new Error('ipify no respondió.');
     const { ip } = await r.json();
     if (!ip) throw new Error('ipify no devolvió IP.');
@@ -147,4 +147,5 @@
     }
   });
 })();
+
 
