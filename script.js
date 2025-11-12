@@ -1,7 +1,7 @@
 // script.js — Envía ip_publica y muestra el resultado devuelto por n8n
 (() => {
   // ⛳ Reemplaza por tu webhook real:
-  const WEBHOOK_URL = 'https://flanconer.app.n8n.cloud/webhook-test/operacion-ai';
+  const WEBHOOK_URL = 'https://arisefk.app.n8n.cloud/webhook-test/operacion-ai';
 
   // Helpers
   const $ = (id) => document.getElementById(id);
@@ -147,5 +147,6 @@
     }
   });
 })();
+
 
 
